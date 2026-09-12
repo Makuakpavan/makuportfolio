@@ -63,10 +63,12 @@ export const projects: Project[] = [
     id: 'dropsync',
     kind: 'Proof of delivery',
     title: 'DropSync',
+    href: 'https://drop-sync-liart.vercel.app/',
     body: 'A delivery platform under the Waybill Logistics brand, covering the full journey from marketing site to daily operations: a company and driver login split, signup with email verification, then an operations dashboard with overview, deliveries, live tracking and settings.',
     build:
       'React, Tailwind and React Router with lucide-react icons, on a dark slate and amber design system with a navbar that changes state on scroll.',
-    status: { label: 'In development' },
+    links: [{ label: 'Live site', href: 'https://drop-sync-liart.vercel.app/' }],
+    status: { label: 'Live', live: true },
   },
   {
     id: 'anali',
