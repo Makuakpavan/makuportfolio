@@ -51,13 +51,15 @@ export const projects: Project[] = [
     status: { label: 'Live', live: true },
   },
   {
-    id: 'swende',
-    kind: 'Mobility super-app',
-    title: 'Swende',
-    body: 'Ride-hailing and multi-modal transport for African cities in one app. The hard part was the roles: passengers, drivers, delivery riders and admins each get a dashboard built around what they actually do, sharing one component library without turning into four different apps.',
+    id: 'movora',
+    kind: 'Movie discovery app',
+    title: 'Movora',
+    href: 'https://movora-theta.vercel.app/',
+    body: 'A movie app built for quick discovery and browsing, with trending titles, rich movie details, and a clean experience for finding something to watch. The focus was on making the interface feel fast, intuitive and enjoyable without overwhelming the user.',
     build:
-      'React, Vite and Tailwind, with React Router for the role-based routing and Framer Motion for transitions between dashboard states.',
-    status: { label: 'In development' },
+      'React, Vite and Tailwind with a responsive UI, movie search and detail views, and a smooth browsing flow designed for entertainment-focused discovery.',
+    links: [{ label: 'Live site', href: 'https://movora-theta.vercel.app/' }],
+    status: { label: 'Live', live: true },
   },
   {
     id: 'dropsync',
@@ -174,9 +176,9 @@ export const facts = [
 
 export const elsewhere = [
   { label: 'GitHub', href: 'https://github.com/Makuakpavan' },
-  {
-    label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/maku-akpavan-a6222a400',
-  },
+  // {
+  //   label: 'LinkedIn',
+  //   href: 'https://www.linkedin.com/in/maku-akpavan-a6222a400',
+  // },
   { label: 'Previous portfolio', href: 'https://maku-akpavanport.vercel.app' },
 ]
