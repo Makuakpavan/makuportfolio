@@ -62,6 +62,23 @@ export const projects: Project[] = [
     status: { label: 'Live', live: true },
   },
   {
+    id: 'assettique',
+    kind: 'Luxury asset marketplace',
+    title: 'Assettique',
+    href: 'https://assettique.vercel.app',
+    body: 'A premium marketplace for luxury vehicles and land in Nigeria and across Africa. Buyers browse high-end cars and property and use AI Match, a chat assistant that turns plain-language requests like "an SUV in Lagos under ₦300M" into recommendations from real listings. Sellers get secure accounts and a guided listing wizard, and can only edit or remove their own listings.',
+    build:
+      'Next.js 14 (App Router), TypeScript, Tailwind and Framer Motion, deployed on Vercel. PostgreSQL on Supabase via Prisma, Supabase Auth for sign-up, email confirmation and password reset, and OpenAI (GPT-5.6 Sol) for AI Match, with conversation memory and a custom matcher for budgets, locations and car brands.',
+    links: [
+      { label: 'Live site', href: 'https://assettique.vercel.app' },
+      {
+        label: 'Repo',
+        href: 'https://github.com/Makuakpavan/assettique',
+      },
+    ],
+    status: { label: 'Live', live: true },
+  },
+  {
     id: 'dropsync',
     kind: 'Proof of delivery',
     title: 'DropSync',
