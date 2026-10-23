@@ -17,8 +17,8 @@ export type Project = {
 
 export const profile = {
   name: 'Maku Akpavan',
-  fullName: 'Maku Akpavan Paul',
-  eyebrow: 'Frontend developer, Jos, Nigeria',
+  fullName: 'Maku Paul Akpavan',
+  eyebrow: 'Fullstack developer, Jos, Nigeria',
   headline:
     'I build software that moves people, parcels and money across African cities.',
   sub: 'Six of my last eight projects were logistics, mobility or payments products. React and TypeScript on the front, Node or Django on the back, and Naira handled properly.',
@@ -27,7 +27,7 @@ export const profile = {
 
 export const stops: Stop[] = [
   { name: 'Jos, Plateau State', note: 'Home base, West Africa Time' },
-  { name: 'nHub Nigeria', note: 'Frontend intern since April 2026' },
+  { name: 'nHub Nigeria', note: 'Full-Stack Dev intern from April 2026 to October 2026' },
   { name: 'University of Jos', note: 'B.Sc. Computer Science, 2027' },
   { name: 'Open to remote', note: 'Available now, any timezone', current: true },
 ]
@@ -91,6 +91,24 @@ export const projects: Project[] = [
     ],
     status: { label: "Live", live: true },
   },
+
+  // {
+  //   id: "unipulse",
+  //   kind: "Student campus connection platform",
+  //   title: "UniPulse",
+  //   href: "https://unipulse-kktcea.v2.appdeploy.ai/",
+  //   body: "A student-focused campus platform designed to connect students and improve campus engagement. It features student profiles, a campus social feed for sharing posts and updates, campus events, student communities, a marketplace for buying and selling items, and group chat. The platform aims to help students discover campus activities, interact with other students, share information, and access useful student services in one place.",
+  //   build:
+  //     "Frontend built with React, TypeScript, Vite and custom UI components. Backend API built using the AppDeploy SDK with authenticated endpoints and platform database storage. Includes student profile management, campus posts, event management, marketplace listings, community membership and campus group messaging. Progressive Web App support includes an app manifest, service worker and static asset caching. Deployed on AppDeploy.",
+  //   links: [
+  //     {
+  //       label: "Live site",
+  //       href: "https://unipulse-kktcea.v2.appdeploy.ai/",
+  //     },
+  //   ],
+  //   status: { label: "Live", live: true },
+  // },
+
   {
     id: "dropsync",
     kind: "Proof of delivery",
