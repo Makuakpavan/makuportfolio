@@ -91,6 +91,17 @@ export const projects: Project[] = [
     ],
     status: { label: "Live", live: true },
   },
+  {
+    id: "eventsphere",
+    kind: "Event discovery & ticketing platform",
+    title: "EventSphere",
+    href: "https://eventsphere-five-sigma.vercel.app/",
+    body: "An event platform where people discover concerts, meetups and experiences, book tickets, and where hosts can publish and manage their own events. The focus was on making discovery feel effortless and checkout feel safe, from finding an event to walking in with a ticket on your phone.",
+    build:
+      "Next.js and Supabase with secure authentication, Paystack and Stripe payments, QR-code tickets, transactional email through Resend, and browser push notifications for event updates.",
+    links: [{ label: "Live site", href: "https://eventsphere-five-sigma.vercel.app/" }],
+    status: { label: "Live", live: true },
+  },
 
   // {
   //   id: "unipulse",
